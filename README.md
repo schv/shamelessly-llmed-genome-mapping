@@ -77,24 +77,6 @@ int dist = bio::editDistance<100>(s1, s2);
 auto [kmer, freq] = bio::findMostFrequentKmer(text, k);
 ```
 
-## Contest Solutions
-
-Build and run individual problems:
-
-```bash
-cd contest/a
-g++ -std=c++23 -O2 -o a a.cpp
-./a < a_test1.txt
-```
-
-| Problem | Description | File |
-|---------|-------------|------|
-| A | Edit Distance | `contest/a/a.cpp` |
-| B | Most Frequent K-mer | `contest/b/b.cpp` |
-| C | Burrows-Wheeler Transform | `contest/c/c.cpp` |
-| D | Inverse BWT | `contest/d/d.cpp` |
-| E | Genome Read Coverage | `contest/e/e.cpp` |
-
 ## Output
 
 The mapper outputs statistics including:
