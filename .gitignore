@@ -1,0 +1,7 @@
+*.pdf
+contest
+data
+docs
+.DS_Store
+.idea
+CLAUDE.md
